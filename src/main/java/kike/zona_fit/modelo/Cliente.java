@@ -10,8 +10,8 @@ import lombok.*;
 @Data
 @NoArgsConstructor // agrega un constructor vacio
 @AllArgsConstructor // agrega un constructor que reciba todos las propiedades o argumentos
-@ToString
 @EqualsAndHashCode
+@ToString
 public class Cliente {
 
     @Id
